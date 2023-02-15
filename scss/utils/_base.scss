@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width: 1080px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main {
+    flex-grow: 1;
+}
